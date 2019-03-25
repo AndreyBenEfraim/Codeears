@@ -23,3 +23,5 @@ function meeting(x, need){
     }
     return count < need ? 'Not enough!' : res
 }
+
+console.log(meeting([['XXX', 1], ['XXXXXX', 6], ['X', 2], ['XXXXXX', 8], ['X', 3], ['XXX', 1]], 5));
